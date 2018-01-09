@@ -1,0 +1,9 @@
+{
+  "order": {
+    "order_type": "limit",
+    "product_id": 5,
+    "side": "buy",
+    "quantity": "0.01",
+    "price": "500.0"
+  }
+}
