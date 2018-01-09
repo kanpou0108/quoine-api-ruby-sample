@@ -19,6 +19,22 @@ $ ruby get_orders.rb
 $ ruby create_order.rb
 ```
 
+Refer the following json file.
+"product_id": 5 is `BTCJPY`
+
+`create_order.json`
+```js
+{
+  "order": {
+    "order_type": "limit",
+    "product_id": 5,
+    "side": "buy",
+    "quantity": "0.01",
+    "price": "500.0"
+  }
+}
+```
+
 ## Cancel Order(PUT)
 ```
 $ ruby cancel_order.rb ORDER_ID
@@ -27,6 +43,17 @@ $ ruby cancel_order.rb ORDER_ID
 ## Edit Order(PUT)
 ```
 $ ruby edit_order.rb ORDER_ID
+```
+
+Refer the following json file.
+`edit_order.json`
+```js
+{
+  "order": {
+    "quantity": "0.02",
+    "price": "420.0"
+  }
+}
 ```
 
 # Reference
