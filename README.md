@@ -19,8 +19,7 @@ $ ruby get_orders.rb
 $ ruby create_order.rb
 ```
 
-Refer the following json file.
-"product_id": 5 is `BTCJPY`
+Refer the following json file. "product_id": 5 is `BTCJPY`
 
 `create_order.json`
 ```js
