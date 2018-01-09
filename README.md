@@ -27,3 +27,6 @@ $ ruby cancel_order.rb ORDER_ID
 ```
 $ ruby edit_order.rb ORDER_ID
 ```
+
+# Reference
+https://developers.quoine.com/#authentication
