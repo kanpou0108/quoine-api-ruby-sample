@@ -4,7 +4,8 @@
 
 # Install
 ```
-bundle install --path vendor/bundle
+$ gem i bundler
+$ bundle install --path vendor/bundle
 ```
 
 # Execute
@@ -29,4 +30,5 @@ $ ruby edit_order.rb ORDER_ID
 ```
 
 # Reference
-https://developers.quoine.com/#authentication
+* https://developers.quoine.com/#authentication
+* https://jwt.io/
