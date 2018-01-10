@@ -14,7 +14,7 @@ $ bundle install --path vendor/bundle
 $ ruby get_orders.rb
 ```
 
-ref. https://developers.quoine.com/#get-an-order
+ref. https://developers.quoine.com/#get-orders
 
 ## Create Order(POST)
 ```
