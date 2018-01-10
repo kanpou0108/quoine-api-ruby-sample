@@ -14,6 +14,8 @@ $ bundle install --path vendor/bundle
 $ ruby get_orders.rb
 ```
 
+ref. https://developers.quoine.com/#get-an-order
+
 ## Create Order(POST)
 ```
 $ ruby create_order.rb
@@ -34,10 +36,14 @@ Refer the following json file. "product_id": 5 is `BTCJPY`
 }
 ```
 
+ref. https://developers.quoine.com/#create-an-order
+
 ## Cancel Order(PUT)
 ```
 $ ruby cancel_order.rb ORDER_ID
 ```
+
+ref. https://developers.quoine.com/#cancel-an-order
 
 ## Edit Order(PUT)
 ```
@@ -54,6 +60,8 @@ Refer the following json file.
   }
 }
 ```
+
+ref. https://developers.quoine.com/#edit-a-live-order
 
 # Reference
 * https://developers.quoine.com/#authentication
